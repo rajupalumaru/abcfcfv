@@ -26,3 +26,4 @@ function calculate() {
     // Display the result
     document.getElementById('result').innerText = "Result: " + result;
 }
+
