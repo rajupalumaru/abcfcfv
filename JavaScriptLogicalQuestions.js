@@ -190,3 +190,14 @@
     }
     let rows = 3;
     printPattern(rows);
+//other
+let row=5;
+for(let i = 1;i<=row;i++){
+    for(let k=1;k<=row-i;k++){
+        document.write("&nbsp;")
+    }
+    for(let j=1;j<=i;j++){
+        document.write(" * ");
+    }
+    document.write('<br/>');
+}
