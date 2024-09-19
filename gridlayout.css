@@ -1,0 +1,12 @@
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.box:nth-child(even){
+    background-color: lightblue;
+}
+.box:nth-child(odd){
+    background-color: lightcoral;
+}

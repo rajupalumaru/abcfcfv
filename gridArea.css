@@ -1,0 +1,62 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    height: 500px;
+    width: 600px;
+    background-color: black;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 16px;
+    grid-area:  'box1 box1 box1'
+                'box2 box3 box4'
+                'box2 box5 box4'
+                'box6 box6 box6';
+
+}
+
+/* .box:nth-child(even) {
+    background-color: lightblue;
+    border-radius: 16px;
+}
+
+.box:nth-child(odd) {
+    background-color: lightpink;
+    border-radius: 16px;
+} */
+.box1 {
+    grid-area: box1;
+    background-color: lightblue;
+}
+
+.box2 {
+    grid-area: box2;
+    background-color: lightcoral;
+}
+
+.box3 {
+    grid-area: box3;
+    background-color: lightcoral;
+}
+
+.box4 {
+    grid-area: box4;
+    background-color: lightcoral;
+}
+
+.box5 {
+    grid-area: box5;
+    background-color: lightcoral;
+}
+
+.box6 {
+    grid-area: box6;
+    background-color: lightcoral;
+} 
