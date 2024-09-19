@@ -1,0 +1,50 @@
+.container1 {
+    background-image: url('tree.jpg');
+    width: 100%;
+    height: 96vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.container2 {
+    background-color: brown;
+    width: 100%;
+    height: 100px;
+}
+.headContainer {
+    font: 16px;
+    color: rebeccapurple;
+}
+.box11 {
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    padding-top: 61px;
+}
+.box12 {
+    width: 300px;
+    height: 300px;
+    background-color: azure;
+    margin-left: 50px;
+    padding-top: 60px;
+}
+.box13 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 50px;
+    
+}
+.image {
+    width: 400px;
+    height: 400px;
+    background-image: url('tree.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    border: 10px solid black;
+    border-radius: 50%;
+}   

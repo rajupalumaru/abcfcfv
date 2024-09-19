@@ -1,0 +1,12 @@
+/* h1{
+    display: inline;
+    margin-top: 200px;
+} */
+a {
+    display: block;
+    /* margin-top: 200px; */
+}
+h1{
+    display: inline-block;
+    margin-top: 200px;
+}
