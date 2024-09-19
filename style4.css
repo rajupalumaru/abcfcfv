@@ -1,0 +1,38 @@
+.parent {
+    width: 600px;
+    height: 600px;
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.child1 {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+
+}
+
+.child2 {
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+
+}
+
+.child3 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+
+}
+
+.child4 {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+
+}

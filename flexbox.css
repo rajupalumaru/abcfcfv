@@ -1,0 +1,51 @@
+header {
+    background-color: black;
+    color: white;
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    font-size: 25px;
+}
+.nav-menu {
+    background-color: darkseagreen;
+    justify-content: space-around;
+    display: flex;
+    padding: 20px;
+}
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    background-color:darkolivegreen;
+    color: white;
+    padding: 5px 10px;
+    font-weight: 500;
+    border-radius: 8px;
+}
+.main-content {
+    display: flex;
+    gap: 20px;
+}
+.content {
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 75%;
+    height: 100vh;
+    text-align: center;
+}
+.sidebar {
+    background-color: antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 4px;
+    width: 25%;
+    text-align: center;
+}
+footer {
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    font-size: 25px;
+}
