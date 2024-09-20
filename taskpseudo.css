@@ -1,0 +1,24 @@
+h1:hover {
+    color: blue
+}
+h2:hover {
+    color: blue
+}
+h3:hover {
+    color: blue
+}
+h4:hover {
+    color: blue
+}
+h5:hover {
+    color: blue
+}
+h6:hover {
+    color: blue
+}
+p:hover {
+    color: red;
+}
+button:hover {
+    color: lightpink;
+}
